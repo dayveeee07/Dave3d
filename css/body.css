@@ -66,6 +66,19 @@
   text-align: center;
 }
 
+@media (max-width: 610px) {
+  .user-about {
+    background-color: rgba(119, 119, 119, 0.425);
+    width: 600px;
+
+    height: 380px;
+  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 
 .user-info {
   line-height: 25px;
