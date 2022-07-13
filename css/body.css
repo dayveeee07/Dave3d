@@ -30,6 +30,14 @@
   
 }
 
+@media (max-width: 400px) {
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+  
+  }
+}
+
 .user-pfp {
   height: 200px;
 
