@@ -137,3 +137,6 @@
   transform: scale(1.8);
 }
 
+.twitter:hover {
+  transform: scale(1.4);
+}
