@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(51,51,51);
+
+  margin: 0;
+
+  height: 1800px;
+
+  font-family: Arial;
+}
+
+
+p {
+  color: white;
+
+  font-family: Arial;
+}

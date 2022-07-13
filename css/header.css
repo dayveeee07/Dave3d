@@ -1,0 +1,69 @@
+.main-header {
+  background-color:  rgb(51,51,51);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 0;
+
+  border-bottom: 3px;
+  border-bottom-color: rgba(119, 119, 119, 0.425);
+  border-bottom-style: solid;
+
+  height: 60px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 60px;
+
+  cursor: pointer;
+}
+
+.website-logo:hover {
+  transform: rotate(360deg)
+}
+
+.about-button {
+  padding: 22px 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.about-button:hover, .gallery-link:hover, .ship-button:hover {
+  color: rgb(57, 100, 150);
+
+
+  border-bottom: 3px;
+  border-bottom-color: rgb(57, 100, 150);
+  border-bottom-style: solid;
+}
+
+
+.gallery-link {
+  color: white;
+
+  text-decoration: none;
+  cursor: pointer;
+  padding: 21px 10px;
+}
+
+.ship-button {
+  padding: 22px 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.right-section {
+  display: flex;
+
+  align-items: center;
+}
+
