@@ -26,6 +26,8 @@
   justify-content: center;
 
   margin-top: 1500px;
+
+  
 }
 
 .user-pfp {
@@ -36,7 +38,19 @@
   border-style: solid;
   border-color: rgba(119, 119, 119, 0.425);
 
+  cursor: pointer;
 
+  transition: all 0.2s;
+
+}
+
+.user-pfp:hover{
+  transform: scale(1.2);
+
+  border-radius: 100px;
+  border-width: 5 px;
+  border-style: solid;
+  border-color: rgba(119, 119, 119, 0.425);
 }
 
 .user-about {
@@ -51,6 +65,7 @@
   justify-content: center;
   text-align: center;
 }
+
 
 .user-info {
   line-height: 25px;
@@ -92,22 +107,33 @@
 }
 
 .discord{
-  height: 35px;
+  transform: scale(1.35);
 }
 
-.fb, .twitter, .spotify {
+.twitter {
+  transform: scale(0.9);
+}
+
+.github {
+  transform: scale(1.05);
+}
+
+.fb, .twitter, .spotify, .discord, .github{
   height: 20px;
-}
 
-.fb, .twitter, .spotify, .discord {
   margin-left: 20px;
   margin-right: 20px;
 
-  transition: opacity 0.15s;
+  transition: all 0.25s;
 }
 
-.fb:hover, .twitter:hover, .spotify:hover, .discord:hover {
-  height: 35px;
+.fb:hover, .twitter:hover, .spotify:hover, .discord:hover, .github:hover {
+  transform: scale(1.5);
 
   opacity: 0.5;
 }
+
+.discord:hover {
+  transform: scale(1.8);
+}
+
