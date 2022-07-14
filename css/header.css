@@ -1,75 +1,27 @@
-.main-header {
-  background-color:  rgb(51,51,51);
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  margin-top: 0;
-
-  border-bottom: 3px;
-  border-bottom-color: rgba(119, 119, 119, 0.425);
-  border-bottom-style: solid;
-
-  height: 60px;
-}
-
 @media (max-width:700px){
-  .main-header {
+
+  nav ul {
     width: 100%;
+    background-color:  rgb(57, 100, 150); 
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
   }
-}
 
-.left-section {
-  display: flex;
-  align-items: center;
-}
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-.website-logo {
-  height: 60px;
-
-  cursor: pointer;
-}
-
-.website-logo:hover {
-  transform: rotate(360deg)
-}
-
-.about-button {
-  padding: 22px 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-  cursor: pointer;
-}
-
-.about-button:hover, .gallery-link:hover, .ship-button:hover {
-  color: rgb(57, 100, 150);
+  nav ul li a{
+    color: white;
+  }
 
 
-  border-bottom: 3px;
-  border-bottom-color: rgb(57, 100, 150);
-  border-bottom-style: solid;
-}
+  .hamburger-menu {
+    display: block;
+  }
 
-
-.gallery-link {
-  color: white;
-
-  text-decoration: none;
-  cursor: pointer;
-  padding: 21px 10px;
-}
-
-.ship-button {
-  padding: 22px 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-  cursor: pointer;
-}
-
-.right-section {
-  display: flex;
-
-  align-items: center;
-}
-
+} 
