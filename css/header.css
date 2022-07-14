@@ -1,3 +1,62 @@
+.container {
+  background-color:  rgb(51,51,51);
+
+  border-bottom: 3px;
+  border-bottom-color: rgba(119, 119, 119, 0.425);
+  border-bottom-style: solid;
+
+  height: 60px;
+}
+
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 60px;
+
+  cursor: pointer;
+  padding-top: 3px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+
+  color: white;
+}
+
+
+nav ul li:hover {
+  cursor: pointer;
+
+
+  color: rgb(57, 100, 150);
+
+
+}
+
+.hamburger-menu {
+  height: 40px;
+
+  cursor: pointer;
+
+
+  margin-right: 20px;
+
+  display: none;
+
+}
+
 @media (max-width:700px){
 
   nav ul {
